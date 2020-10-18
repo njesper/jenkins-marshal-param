@@ -1,0 +1,9 @@
+<p>
+    Decode key-value pairs from a bzip2 compressed base64 string sent as cause-note.
+</p>
+<p>
+    <b>Parameters:</b> NONE
+</p>
+<p>
+    Returns a hash map of key-value pairs.
+</p>
