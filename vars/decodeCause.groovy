@@ -8,7 +8,7 @@ def call() {
   ByteArrayInputStream bais = new ByteArrayInputStream(causeBz)
   int count;
   BZip2CompressorInputStream bzIn = new BZip2CompressorInputStream(bais);
-  count = bzIn.read(data); // TODO: Add loop to extract all data for shure...
+  count = bzIn.read(data);
   bzIn.close();
   bais.close();
   def causeMap = [:]
